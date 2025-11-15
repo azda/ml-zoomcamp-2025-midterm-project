@@ -1,0 +1,17 @@
+# flyctl launch added from .gitignore
+# Python-generated files
+**/__pycache__
+**/*.py[oc]
+**/build
+**/dist
+**/wheels
+**/*.egg-info
+
+# Virtual environments
+**/.venv
+
+**/*.code-workspace
+
+# flyctl launch added from .venv/.gitignore
+.venv/**/*
+fly.toml
